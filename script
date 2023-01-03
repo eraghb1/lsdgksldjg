@@ -1,0 +1,324 @@
+-- Made By AngryEmoFish#8457 --
+
+local ScreenGui = Instance.new("ScreenGui")
+local Exp = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Frame = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local UICorner_3 = Instance.new("UICorner")
+local AFKFarm = Instance.new("TextButton")
+local Fly = Instance.new("TextButton")
+local HomePage = Instance.new("TextButton")
+local Home = Instance.new("Frame")
+local UICorner_4 = Instance.new("UICorner")
+local ImageLabel = Instance.new("ImageLabel")
+local UICorner_5 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
+local Lock = Instance.new("Frame")
+local UICorner_6 = Instance.new("UICorner")
+local Lock_2 = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local FlyScript = Instance.new("Frame")
+local UICorner_8 = Instance.new("UICorner")
+local FlyButton = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local TextLabel_3 = Instance.new("TextLabel")
+local UICorner_10 = Instance.new("UICorner")
+local ExitButton = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Exp.Name = "Exp"
+Exp.Parent = ScreenGui
+Exp.BackgroundColor3 = Color3.fromRGB(58, 15, 111)
+Exp.Position = UDim2.new(0.300641537, 0, 0.220641613, 0)
+Exp.Size = UDim2.new(0, 467, 0, 355)
+
+UICorner.Parent = Exp
+
+Frame.Parent = Exp
+Frame.BackgroundColor3 = Color3.fromRGB(35, 9, 66)
+Frame.Position = UDim2.new(0.0171306208, 0, 0.188732401, 0)
+Frame.Size = UDim2.new(0, 139, 0, 282)
+
+UICorner_2.Parent = Frame
+
+TextLabel.Parent = Exp
+TextLabel.BackgroundColor3 = Color3.fromRGB(85, 22, 161)
+TextLabel.Position = UDim2.new(0.0171306208, 0, 0.0169014093, 0)
+TextLabel.Size = UDim2.new(0, 181, 0, 48)
+TextLabel.Font = Enum.Font.Unknown
+TextLabel.Text = "Tafuca-v1"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+UICorner_3.Parent = TextLabel
+
+AFKFarm.Name = "AFK Farm"
+AFKFarm.Parent = Exp
+AFKFarm.BackgroundColor3 = Color3.fromRGB(85, 22, 161)
+AFKFarm.BorderColor3 = Color3.fromRGB(43, 11, 81)
+AFKFarm.Position = UDim2.new(0.0321199149, 0, 0.343405724, 0)
+AFKFarm.Size = UDim2.new(0, 123, 0, 45)
+AFKFarm.Font = Enum.Font.SourceSansBold
+AFKFarm.Text = "AFK Farm"
+AFKFarm.TextColor3 = Color3.fromRGB(0, 0, 0)
+AFKFarm.TextScaled = true
+AFKFarm.TextSize = 14.000
+AFKFarm.TextWrapped = true
+
+Fly.Name = "Fly"
+Fly.Parent = Exp
+Fly.BackgroundColor3 = Color3.fromRGB(85, 22, 161)
+Fly.BorderColor3 = Color3.fromRGB(43, 11, 81)
+Fly.Position = UDim2.new(0.0321199149, 0, 0.503969073, 0)
+Fly.Size = UDim2.new(0, 123, 0, 45)
+Fly.Font = Enum.Font.SourceSansBold
+Fly.Text = "FLY"
+Fly.TextColor3 = Color3.fromRGB(0, 0, 0)
+Fly.TextScaled = true
+Fly.TextSize = 14.000
+Fly.TextWrapped = true
+
+HomePage.Name = "HomePage"
+HomePage.Parent = Exp
+HomePage.BackgroundColor3 = Color3.fromRGB(85, 22, 161)
+HomePage.BorderColor3 = Color3.fromRGB(43, 11, 81)
+HomePage.Position = UDim2.new(0.0321199149, 0, 0.222535118, 0)
+HomePage.Size = UDim2.new(0, 123, 0, 35)
+HomePage.Font = Enum.Font.SourceSansBold
+HomePage.Text = "Home"
+HomePage.TextColor3 = Color3.fromRGB(0, 0, 0)
+HomePage.TextScaled = true
+HomePage.TextSize = 14.000
+HomePage.TextWrapped = true
+
+Home.Name = "Home"
+Home.Parent = Exp
+Home.BackgroundColor3 = Color3.fromRGB(35, 9, 66)
+Home.Position = UDim2.new(0.340084374, 0, 0.18714653, 0)
+Home.Size = UDim2.new(0, 302, 0, 282)
+
+UICorner_4.Parent = Home
+
+ImageLabel.Parent = Home
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.Position = UDim2.new(0.334437072, 0, 0.0425531901, 0)
+ImageLabel.Size = UDim2.new(0, 100, 0, 100)
+ImageLabel.Image = "rbxassetid://11996322760"
+
+UICorner_5.Parent = ImageLabel
+
+TextLabel_2.Parent = Home
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(85, 22, 161)
+TextLabel_2.Position = UDim2.new(0.0331125818, 0, 0.411347508, 0)
+TextLabel_2.Size = UDim2.new(0, 284, 0, 158)
+TextLabel_2.Font = Enum.Font.SourceSansBold
+TextLabel_2.Text = "Script made by AngryEmoFish#8457"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+Lock.Name = "Lock"
+Lock.Parent = Exp
+Lock.BackgroundColor3 = Color3.fromRGB(35, 9, 66)
+Lock.Position = UDim2.new(0.342612416, 0, 0.188732401, 0)
+Lock.Size = UDim2.new(0, 295, 0, 282)
+Lock.Visible = false
+
+UICorner_6.Parent = Lock
+
+Lock_2.Name = "Lock"
+Lock_2.Parent = Lock
+Lock_2.BackgroundColor3 = Color3.fromRGB(85, 22, 161)
+Lock_2.BorderColor3 = Color3.fromRGB(85, 22, 161)
+Lock_2.Position = UDim2.new(0.0338983051, 0, 0.0390070938, 0)
+Lock_2.Size = UDim2.new(0, 276, 0, 50)
+Lock_2.Font = Enum.Font.SourceSansBold
+Lock_2.Text = "AFK Farm"
+Lock_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Lock_2.TextScaled = true
+Lock_2.TextSize = 14.000
+Lock_2.TextWrapped = true
+
+UICorner_7.Parent = Lock_2
+
+FlyScript.Name = "FlyScript"
+FlyScript.Parent = Exp
+FlyScript.BackgroundColor3 = Color3.fromRGB(35, 9, 66)
+FlyScript.Position = UDim2.new(0.340084374, 0, 0.188732401, 0)
+FlyScript.Size = UDim2.new(0, 302, 0, 281)
+FlyScript.Visible = false
+
+UICorner_8.Parent = FlyScript
+
+FlyButton.Name = "FlyButton"
+FlyButton.Parent = FlyScript
+FlyButton.BackgroundColor3 = Color3.fromRGB(81, 21, 154)
+FlyButton.Position = UDim2.new(0.0695364252, 0, 0.0889679715, 0)
+FlyButton.Size = UDim2.new(0, 260, 0, 50)
+FlyButton.Font = Enum.Font.SourceSansBold
+FlyButton.Text = "Fly"
+FlyButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+FlyButton.TextScaled = true
+FlyButton.TextSize = 14.000
+FlyButton.TextWrapped = true
+
+UICorner_9.Parent = FlyButton
+
+TextLabel_3.Parent = Exp
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(85, 22, 161)
+TextLabel_3.Position = UDim2.new(0.427878797, 0, 0.0169014093, 0)
+TextLabel_3.Size = UDim2.new(0, 206, 0, 48)
+TextLabel_3.Font = Enum.Font.Unknown
+TextLabel_3.Text = "Made by AngryEmoFish#8457"
+TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+UICorner_10.Parent = TextLabel_3
+
+ExitButton.Name = "ExitButton"
+ExitButton.Parent = Exp
+ExitButton.BackgroundColor3 = Color3.fromRGB(171, 0, 0)
+ExitButton.BackgroundTransparency = 1.000
+ExitButton.Position = UDim2.new(0.890405536, 0, 0.0169014093, 0)
+ExitButton.Size = UDim2.new(0, 45, 0, 50)
+ExitButton.Font = Enum.Font.Unknown
+ExitButton.Text = "X"
+ExitButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+ExitButton.TextScaled = true
+ExitButton.TextSize = 14.000
+ExitButton.TextWrapped = true
+
+-- Scripts:
+
+local function COCMEEM_fake_script() -- Exp.LocalScript 
+	local script = Instance.new('LocalScript', Exp)
+
+	local UIS = game:GetService('UserInputService')
+	
+	local frame = script.Parent
+	
+	
+	
+	local dragToggle = nil
+	
+	local dragSpeed = 0.25
+	
+	local dragStart = nil
+	
+	local startPos = nil
+	
+	
+	
+	local function updateInput(input)
+	
+		local delta = input.Position - dragStart
+	
+		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+	
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	
+		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+	
+	end
+	
+	
+	
+	frame.InputBegan:Connect(function(input)
+	
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+	
+			dragToggle = true
+	
+			dragStart = input.Position
+	
+			startPos = frame.Position
+	
+			input.Changed:Connect(function()
+	
+				if input.UserInputState == Enum.UserInputState.End then
+	
+					dragToggle = false
+	
+				end
+	
+			end)
+	
+		end
+	
+	end)
+	
+	
+	
+	UIS.InputChanged:Connect(function(input)
+	
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+	
+			if dragToggle then
+	
+				updateInput(input)
+	
+			end
+	
+		end
+	
+	end)
+end
+coroutine.wrap(COCMEEM_fake_script)()
+local function MFLZ_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	local MainGui = script.Parent
+	local LockButton = MainGui.Exp["AFK Farm"]
+	
+	LockButton.MouseButton1Down:Connect(function()
+		LockButton.Parent.Home.Visible = false
+		LockButton.Parent.Lock.Visible = true
+		MainGui.Exp.FlyScript.Visible = false
+	end)
+	
+	LockButton.Parent.HomePage.MouseButton1Click:Connect(function()
+		LockButton.Parent.Lock.Visible = false
+		LockButton.Parent.Home.Visible = true
+		MainGui.Exp.FlyScript.Visible = false
+	end)
+	
+	MainGui.Exp.Fly.MouseButton1Click:Connect(function()
+		MainGui.Exp.Lock.Visible = false
+		MainGui.Exp.Home.Visible = false
+		MainGui.Exp.FlyScript.Visible = true
+	end)
+	
+	MainGui.Exp.ExitButton.MouseButton1Down:Connect(function()
+		MainGui:Destroy()
+	end)
+	
+	MainGui.Exp.Lock.Lock.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/XRoLLu/UWU/main/BUILD%20A%20BOAT%20FOR%20TREASURE.lua'))()
+	end)
+	
+	MainGui.Exp.FlyScript.FlyButton.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/h5QDPy6s"))
+	end)
+end
+coroutine.wrap(MFLZ_fake_script)()
+local function HVGBNM_fake_script() -- ScreenGui.Script 
+	local script = Instance.new('Script', ScreenGui)
+
+	game:GetService("StarterGui"):SetCore("SendNotification",{
+		Title = "Creators";
+		Text = "Made by eraghb1";
+		Duration = 3.5;
+	})
+end
+coroutine.wrap(HVGBNM_fake_script)()
