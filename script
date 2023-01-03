@@ -1,4 +1,4 @@
--- Made By AngryEmoFish#8457 --
+-- Made By AngryEmoFish#8457
 
 local ScreenGui = Instance.new("ScreenGui")
 local Exp = Instance.new("Frame")
@@ -201,7 +201,7 @@ ExitButton.TextWrapped = true
 
 -- Scripts:
 
-local function COCMEEM_fake_script() -- Exp.LocalScript 
+local function AQNZ_fake_script() -- Exp.LocalScript 
 	local script = Instance.new('LocalScript', Exp)
 
 	local UIS = game:GetService('UserInputService')
@@ -274,8 +274,8 @@ local function COCMEEM_fake_script() -- Exp.LocalScript
 	
 	end)
 end
-coroutine.wrap(COCMEEM_fake_script)()
-local function MFLZ_fake_script() -- ScreenGui.LocalScript 
+coroutine.wrap(AQNZ_fake_script)()
+local function SFYZK_fake_script() -- ScreenGui.LocalScript 
 	local script = Instance.new('LocalScript', ScreenGui)
 
 	local MainGui = script.Parent
@@ -308,11 +308,11 @@ local function MFLZ_fake_script() -- ScreenGui.LocalScript
 	end)
 	
 	MainGui.Exp.FlyScript.FlyButton.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("https://pastebin.com/raw/h5QDPy6s"))
+		loadstring(game:HttpGet('https://pastebin.com/raw/h5QDPy6s'))()
 	end)
 end
-coroutine.wrap(MFLZ_fake_script)()
-local function HVGBNM_fake_script() -- ScreenGui.Script 
+coroutine.wrap(SFYZK_fake_script)()
+local function QPULTH_fake_script() -- ScreenGui.Script 
 	local script = Instance.new('Script', ScreenGui)
 
 	game:GetService("StarterGui"):SetCore("SendNotification",{
@@ -321,4 +321,4 @@ local function HVGBNM_fake_script() -- ScreenGui.Script
 		Duration = 3.5;
 	})
 end
-coroutine.wrap(HVGBNM_fake_script)()
+coroutine.wrap(QPULTH_fake_script)()
